@@ -100,5 +100,10 @@ public class BinarySearchTree {
         Node kthBiggestNode = bst.kthBiggest(bst.root, 3);
         System.out.println("3rd biggest key: " + (kthBiggestNode != null ? kthBiggestNode.key : "Not found"));
     }
-
 }
+
+/*
+Preorder Traversal: 50 30 20 40 70 60 80 
+Sum of all keys: 350
+3rd biggest key: 60
+*/
